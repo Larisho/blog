@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = ''
 theme = ['PaperMod']
 
+[caches.images]
+dir = ':cacheDir/images'
+
 [taxonomies]
 tag = 'tags'
 category = 'categories'
