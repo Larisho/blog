@@ -1,4 +1,4 @@
-baseURL = 'https://gabdavid.com/'
+baseURL = 'https://blog.gabdavid.com/'
 languageCode = 'en-us'
 title = ''
 theme = ['PaperMod']
