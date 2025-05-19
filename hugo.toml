@@ -1,4 +1,54 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://gabdavid.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = ["PaperMod"]
+title = ''
+theme = ['PaperMod']
+
+[taxonomies]
+tag = 'tags'
+category = 'categories'
+
+[params]
+showReadingTime = true
+
+[params.homeInfoParams]
+title = 'let blog;'
+content = 'Uninitialised thoughts about software.'
+
+[params.cover]
+hiddenInList = true
+
+[[params.socialIcons]]
+name = 'LinkedIn'
+url = 'https://www.linkedin.com/in/gabdavid/'
+
+[[params.socialIcons]]
+name = 'GitHub'
+url = 'https://github.com/Larisho'
+
+[[params.socialIcons]]
+name = 'Dev'
+url = 'https://dev.to/Larisho'
+
+[[menu.main]]
+identifier = 'home'
+name = 'Home'
+url = '/'
+weight = 1
+
+[[menu.main]]
+identifier = 'posts'
+name = 'Posts'
+url = '/posts/'
+weight = 10
+
+[[menu.main]]
+identifier = 'categories'
+name = 'Categories'
+url = '/categories/'
+weight = 20
+
+[[menu.main]]
+identifier = 'tags'
+name = 'Tags'
+url = '/tags/'
+weight = 30
