@@ -9,6 +9,7 @@ cover.image = "jan-huber-sign-posts-unsplash.jpg"
 cover.alt = "Silhouette of a signpost with multiple signs in front of a sunset."
 cover.caption = "Image courtesy of Jan Huber, Unsplash"
 cover.responsiveImages = true
+cover.relative = true
 +++
 
 While scrolling hacker news, I came across a [great article](https://boydkane.com/essays/experts) by Boyd Kane about how novices don't just lack knowledge of a subject, but lack _the awareness_ of their lack of knowledge until it is pointed out to them by a friendly expert. His recommendation to novices is to study a niche aspect of their field so that they can speak on the "same level" as other experts as a way of finding common ground:
