@@ -1,4 +1,4 @@
-baseURL = '//blog.gabdavid.com/'
+baseURL = 'https://blog.gabdavid.com/'
 languageCode = 'en-us'
 title = ''
 theme = ['PaperMod']
@@ -19,6 +19,7 @@ content = 'Uninitialised thoughts about software.'
 
 [params.cover]
 hiddenInList = true
+responsiveImages = false
 
 [[params.socialIcons]]
 name = 'LinkedIn'
